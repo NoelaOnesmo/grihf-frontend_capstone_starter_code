@@ -1,0 +1,46 @@
+/* Position the navbar at the top */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; /* Change to any color you like */
+  padding: 10px 0;
+  z-index: 1000; /* Keep it on top of other content */
+}
+
+/* Make sure body content starts below the navbar */
+body {
+  padding-top: 50px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout nav links horizontally */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for each nav item */
+.nav-links li {
+  margin: 0 20px;
+}
+
+/* Navigation links styling */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
